@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33.33% - 1rem); /* Establece el ancho de cada tarjeta */
+    margin-bottom: 1rem; /* Agrega margen inferior para espaciar las filas */
+}
